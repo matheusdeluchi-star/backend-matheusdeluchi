@@ -1,3 +1,3 @@
-Feedback - Aula 02 e Aula 03
+# Feedback - Aula 03
 
-Matheus, seu repositório foi criado depois que eu já tinha passado a aula 3, então você não recebeu aquele material lá, mas mesmo assim, no que você entregou, o POST, o PUT, o DELETE e o listen ficaram aninhados dentro do GET por id e o servidor nem sobe, por isso ficou 0,05. A aula 2 está zerada.
+Matheus, o seu servidor.js tem um problema grave de estrutura: as rotas de POST, PUT, DELETE e até o app.listen estão escritas dentro do corpo da rota GET /treinos/:id, em vez de serem rotas separadas. Isso faz o servidor nem subir direito. Preciso lançar a nota até sexta-feira, vale reescrever puxando essas rotas pra fora, cada uma com seu próprio app.get/post/put/delete.
